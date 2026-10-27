@@ -1,0 +1,1 @@
+import StoryPage from '../[id]/page'; export default StoryPage;

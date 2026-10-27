@@ -1,0 +1,3 @@
+import * as htmlToImage from 'html-to-image';
+export async function exportAsPng(id:string,filename:string){const node=document.getElementById(id);if(!node)throw new Error('Element not found');const dataUrl=await htmlToImage.toPng(node,{pixelRatio:2,backgroundColor:'#ffffff',cacheBust:true});const a=document.createElement('a');a.download=filename;a.href=dataUrl;a.click();}
+export async function exportAsJpg(id:string,filename:string){const node=document.getElementById(id);if(!node)throw new Error('Element not found');const dataUrl=await htmlToImage.toJpeg(node,{pixelRatio:2,backgroundColor:'#ffffff',quality:0.95});const a=document.createElement('a');a.download=filename;a.href=dataUrl;a.click();}
