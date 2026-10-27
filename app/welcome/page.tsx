@@ -19,7 +19,7 @@ export default function Welcome(){
           <div className="font-bold">Mode Pengunjung:</div>
           <div className="mt-1">• Tanpa password, tanpa Gmail wajib<br/>• Data cerita disimpan di browser (IndexedDB)<br/>• Aman, gratis, langsung pakai<br/>• Cerita default: Si Kelinci Sombong & Kura-kura 9:16</div>
         </div>
-        <div className="mt-4 text-center text-[11px] text-slate-400">© 2026 DIMSTORY • Fabel Klasik • Putih Biru • Kiki & Tora</div>
+        <div className="mt-4 text-center text-[11px] text-slate-400">© 2026 DIMSTORY • Fabel Klasik • Putih Biru</div>
       </div>
     </div>
   );

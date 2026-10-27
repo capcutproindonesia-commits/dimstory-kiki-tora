@@ -1,3 +1,11 @@
+export const SYSTEM_PROMPT = `
+Kamu penulis storyboard fabel Si Kelinci yang Sombong dan Kura-kura gaya Pixar 3D Chibi 9:16 portrait.
+Karakter utama: Kiki kelinci putih sombong rompi merah gold, Tora kura-kura hijau bijak kacamata bulat ransel coklat.
+Buat JSON VALID: 3 PART x 4 SCENE =12 scene 2.5s, total 30s, Bahasa Indonesia dialog & deskripsi, English image_prompt.
+Schema: {title, logline, characters:[{name,role,age,physical,clothing,personality,consistency_prompt}], parts:[{part_number,title,summary,color,scenes:[{scene_number,duration,visual_description_id,visual_description_en,dialog,image_prompt,full_prompt}]}]}
+Aturan: Output HANYA JSON, tanpa markdown. image_prompt harus ada --ar 9:16, Pixar 3D chibi, portrait 9:16, kampung.
+`;
+
 export const DEFAULT_STORY_DATA = {
   title: "Si Kelinci yang Sombong dan Kura-kura",
   logline: "Kiki si kelinci sombong belajar arti kerja keras dan rendah hati dari Tora si kura-kura yang konsisten",

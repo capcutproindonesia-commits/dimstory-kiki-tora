@@ -1,1 +1,1 @@
-const nextConfig = { images: { remotePatterns: [{ hostname: '**' }], unoptimized: true }, output: 'standalone' }; export default nextConfig;
+const nextConfig = { images: { remotePatterns: [{ hostname: '**' }] } }; export default nextConfig;
